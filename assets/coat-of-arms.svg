@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Coat of Arms of the Republic of Vanuatu">
+  <title>Coat of Arms of the Republic of Vanuatu</title>
+  <defs>
+    <path id="motto-arc" d="M21 70 A 32 32 0 0 1 79 70" fill="none"/>
+  </defs>
+
+  <!-- Medallion -->
+  <circle cx="50" cy="50" r="49" fill="#0E4D38"/>
+  <circle cx="50" cy="50" r="49" fill="none" stroke="#C8A23C" stroke-width="2"/>
+  <circle cx="50" cy="50" r="43" fill="none" stroke="#C8A23C" stroke-width="0.7" opacity="0.55"/>
+
+  <!-- Mountain -->
+  <path d="M24 70 L49 45 L74 70 Z" fill="#155C44"/>
+  <path d="M24 70 L74 70" stroke="#0A3A2A" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Namele fern fronds (crossed, behind) -->
+  <g stroke="#6CB79B" stroke-width="1.9" stroke-linecap="round" fill="none">
+    <path d="M50 75 Q 31 67 25 43"/>
+    <path d="M50 75 Q 69 67 75 43"/>
+    <path d="M41.5 61 l-5.5 -1.5 M37 54 l-5.5 -1 M33.5 47.5 l-5 -0.5 M30.5 42 l-4.5 0"/>
+    <path d="M58.5 61 l5.5 -1.5 M63 54 l5.5 -1 M66.5 47.5 l5 -0.5 M69.5 42 l4.5 0"/>
+  </g>
+
+  <!-- Boar's tusk (encircling) -->
+  <g fill="none" stroke="#C8A23C" stroke-width="3.4" stroke-linecap="round">
+    <path d="M31 41 A 24 24 0 0 0 50 81"/>
+    <path d="M69 41 A 24 24 0 0 1 50 81"/>
+  </g>
+
+  <!-- Melanesian chief with spear -->
+  <g fill="#E4CE8E">
+    <!-- spear -->
+    <path d="M61.4 28 L57.2 75" stroke="#C8A23C" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M61.4 27.5 l-2.2 4.6 l4.3 -0.6 Z"/>
+    <!-- head -->
+    <circle cx="48.5" cy="38.5" r="3.1"/>
+    <!-- torso + legs silhouette -->
+    <path d="M44.6 42.2 L52.4 42.2 L51.4 55 L54.2 71.5 L50.4 71.5 L48.5 59 L46.6 71.5 L42.8 71.5 L45.6 55 Z"/>
+    <!-- arms -->
+    <path d="M45 43.5 L41.7 53" stroke="#E4CE8E" stroke-width="2.1" stroke-linecap="round"/>
+    <path d="M52 43.5 L58.6 40" stroke="#E4CE8E" stroke-width="2.1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Motto ribbon -->
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="5.6" font-weight="600" letter-spacing="0.6" fill="#E4CE8E">
+    <textPath href="#motto-arc" startOffset="50%" text-anchor="middle">LONG GOD YUMI STANAP</textPath>
+  </text>
+</svg>

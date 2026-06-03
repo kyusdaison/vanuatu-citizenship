@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Authorised Agents — Vanuatu Citizenship Office &amp; Commission</title>
+<meta name="description" content="The official register of agents licensed by the Vanuatu Citizenship Commission (DSP, CIIP and VCP), the list of cancelled/blacklisted agents, and fraud-awareness guidance." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="gov"><div class="container">
+  <span class="gov-official"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg> An official website of the Government of the Republic of Vanuatu</span>
+  <span class="gov-links"><a href="agents.html">Find an Agent</a><a href="contact.html">Contact</a><a href="#" aria-label="Language: English">EN</a></span>
+</div></div>
+<header class="site" id="top"><div class="container nav">
+  <a class="brand" href="index.html" aria-label="Home"><img class="seal" src="https://commons.wikimedia.org/wiki/Special:FilePath/Coat_of_arms_of_Vanuatu.svg" onerror="this.onerror=null;this.src='assets/coat-of-arms.svg'" alt="Coat of Arms of the Republic of Vanuatu" /><span class="brand-txt"><b>Vanuatu Citizenship</b><span>Office &amp; Commission</span></span></a>
+  <nav class="menu" aria-label="Primary"><a data-nav="about.html" href="about.html">About</a><a data-nav="programmes.html" href="programmes.html">Programmes</a><a data-nav="how-to-apply.html" href="how-to-apply.html">How to Apply</a><a data-nav="due-diligence.html" href="due-diligence.html">Due Diligence</a><a data-nav="agents.html" href="agents.html">Agents</a><a data-nav="passport.html" href="passport.html">Passport</a><a data-nav="news.html" href="news.html">News</a></nav>
+  <div class="nav-cta"><a class="btn btn-dark" href="agents.html">Find an Agent <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><button class="hamburger" id="open-menu" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button></div>
+</div></header>
+<div class="mpanel" id="mpanel" aria-hidden="true"><div class="mtop"><span class="brand-txt"><b style="color:#fff;font-family:var(--serif)">Vanuatu Citizenship</b></span><button class="mclose" id="close-menu" aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div><nav aria-label="Mobile"><a href="about.html">About</a><a href="programmes.html">Programmes</a><a href="how-to-apply.html">How to Apply</a><a href="due-diligence.html">Due Diligence</a><a href="agents.html">Authorised Agents</a><a href="passport.html">Passport</a><a href="news.html">News</a><a href="contact.html">Contact</a></nav><a class="btn btn-gold" href="agents.html">Find an Authorised Agent</a></div>
+
+<main id="main">
+<section class="subhero">
+  <svg class="hero-y" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 8 L50 52 L20 86 M50 52 L80 86" fill="none" stroke="#C8A23C" stroke-width="2.5" stroke-linecap="round"/></svg>
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 6 6 6-6 6"/></svg><span>Authorised Agents</span></div>
+    <h1>Authorised agents</h1>
+    <p>Applications can only be lodged through agents licensed by the Citizenship Commission. Use this official register to find and verify an agent — and always check the cancelled list before you engage anyone.</p>
+  </div>
+</section>
+
+<section class="bg-paper">
+  <div class="container">
+    <div class="callout warn reveal" style="margin-bottom:28px">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+      <span>Only work with agents on this official list. Verify the domain ends in <strong>.gov.vu</strong>, never pay unlicensed promoters, and check the <a href="#blacklist">cancelled agents</a> below. Contact the office on +678 33365 to confirm any agent.</span>
+    </div>
+
+    <div class="dirbar reveal">
+      <input type="search" id="agent-search" placeholder="Search agents by name, person, country or company…" aria-label="Search agents" />
+      <button class="chip active" data-cat="all">All</button>
+      <button class="chip" data-cat="dsp">DSP</button>
+      <button class="chip" data-cat="ciip">CIIP</button>
+      <button class="chip" data-cat="vcp">VCP</button>
+    </div>
+    <div class="dircount" id="dircount">Showing all agents</div>
+
+    <div class="directory" id="directory">
+      <!-- DSP designated agents -->
+      <div class="agent" data-cat="dsp"><div class="an"><h4>The Group Consultancy</h4><span class="pill">DSP</span></div><div class="rep">Benny Lee</div><div class="ct">Moulu Building, Stade Area, Port Vila · +678 22298</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Astons Limited</h4><span class="pill">DSP</span></div><div class="rep">Astons</div><div class="ct">Port Vila: Kumul Highway · +678 7747899 · Dubai: Citywalk Boulevard, Al Wasl · <a href="https://www.astons.com" target="_blank" rel="noopener">astons.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Imin FZCO (Passportivity) Limited</h4><span class="pill">DSP</span></div><div class="rep">Imin FZCO</div><div class="ct">Port Vila: Kumul Highway · Dubai: +971 52 938 5533 · <a href="https://passportivity.com" target="_blank" rel="noopener">passportivity.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Pacific Stars Consultant Vanuatu Limited</h4><span class="pill">DSP</span></div><div class="rep">CSDF</div><div class="ct">Port Vila: Kumul Highway · +678 7115000 / +678 7746868 · Dubai offices · orience.com</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Stanford Knight &amp; Partners</h4><span class="pill">DSP</span></div><div class="rep">VCI Fund</div><div class="ct">Vanuatu +678 756 6666 · HK +842 67605317 · NZ · USA · UK · <a href="http://www.stanfordknight.com" target="_blank" rel="noopener">stanfordknight.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>VIMB Services Limited</h4><span class="pill">DSP</span></div><div class="rep">Daniel Agius</div><div class="ct">Vanuatu +678 5553333 · offices in Russia, USA, Hong Kong · <a href="http://www.vimb.org" target="_blank" rel="noopener">vimb.org</a> · cno.vu</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Smart Citizenship Vanuatu</h4><span class="pill">DSP</span></div><div class="rep">Melten Manuake</div><div class="ct">Seaside Paama, Port Vila · +678 27365 · +678 7365140 · <a href="https://smartcitizenshipvanuatu.com/" target="_blank" rel="noopener">smartcitizenshipvanuatu.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Annorri International Consultant</h4><span class="pill">DSP</span></div><div class="rep">Analine Tagaro</div><div class="ct">Port Vila, Vanuatu</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Vanuatu Advance Citizenship Limited</h4><span class="pill">DSP</span></div><div class="rep">Selina Kolthek</div><div class="ct">Port Vila: Kumul Highway · +678 7117000 · Sydney +61 497380756 · <a href="https://www.vanuatuadvance.com" target="_blank" rel="noopener">vanuatuadvance.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Vanuatu Unlocked Ltd</h4><span class="pill">DSP</span></div><div class="rep">Catherine Boudier Contant</div><div class="ct">Lini Highway, Port Vila · +678 7773060 · Dubai +971 56 392 5159 · WeChat VanuatuUnlockedLtd</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Bridge International Agency Co LTD</h4><span class="pill">DSP</span></div><div class="rep">Mavin Jiaming</div><div class="ct">Tel 35161, Port Vila</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Golden Vila Investment</h4><span class="pill">DSP</span></div><div class="rep">Jean Claude Tahireve</div><div class="ct">Hong Kong: The L. Plaza, Queen's Road Central · WhatsApp +852 6073 3642 / +678 5457260 · <a href="https://www.vanuatugo.com" target="_blank" rel="noopener">vanuatugo.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Hyda Citizenship &amp; Consultant Services</h4><span class="pill">DSP</span></div><div class="rep">—</div><div class="ct">+678 5455698 / +678 7116895</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Law Partners</h4><span class="pill">DSP</span></div><div class="rep">Alipate La'au</div><div class="ct">Port Vila · with Vancis Capital (COO Sandeep Nair +971 52 964 6254) · <a href="https://lawpartnersvanuatu.com/corporate-and-business/citizenship/" target="_blank" rel="noopener">lawpartnersvanuatu.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>NXT Citizen</h4><span class="pill">DSP</span></div><div class="rep">Catherine Keys</div><div class="ct">Nambatri Area, Port Vila · +678 7741433 · Sales: Tristan Palmer +971 55 830 2463 · <a href="http://www.nxtcitizen.com" target="_blank" rel="noopener">nxtcitizen.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Blue Mirror LTD</h4><span class="pill">DSP</span></div><div class="rep">Leah Andrew</div><div class="ct">Tel 7102394, Port Vila</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Global Visa Partners Consultant</h4><span class="pill">DSP</span></div><div class="rep">Julien Bani</div><div class="ct">Sub-agent Vantone Investment Immigration, Des Voeux Road Central, Hong Kong · WhatsApp +66800801111 · vantoneimmigration.com</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>JG Marketing Consultant &amp; Recruiting Agency</h4><span class="pill">DSP</span></div><div class="rep">Norman Omam Joseph</div><div class="ct">PO Box 20, Port Vila · WhatsApp +678 7746246</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Yawha &amp; Associates</h4><span class="pill">DSP</span></div><div class="rep">Francesca Grillo</div><div class="ct">+678 7719898 (WhatsApp / Call)</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Indigenous Consulting Migration &amp; Investment</h4><span class="pill">DSP</span></div><div class="rep">Blandine Salali</div><div class="ct"><a href="https://www.advent-citizen.com/" target="_blank" rel="noopener">advent-citizen.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Vanuatu Life Style</h4><span class="pill">DSP</span></div><div class="rep">Denny James</div><div class="ct">+678 5523158</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Citizenship Partners Vanuatu</h4><span class="pill">DSP</span></div><div class="rep">Vira Isno Josiah &amp; Sylverio Willy</div><div class="ct">WhatsApp +678 7716123 · +678 5284230</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Prime Blue Limited</h4><span class="pill">DSP</span></div><div class="rep">Steven Li</div><div class="ct">Port Vila (GM Stuart Ngwango +678 7752579) · offices in China, Dubai, Australia · <a href="https://www.primeblue.biz" target="_blank" rel="noopener">primeblue.biz</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>George Andrews Consulting</h4><span class="pill">DSP</span></div><div class="rep">George Andrews</div><div class="ct">+678 7742362</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Asia Pacific Consulting</h4><span class="pill">DSP</span></div><div class="rep">Collin Jacques Natonga</div><div class="ct">Hong Kong: WhatsApp +852 6639 2655 (WeChat Lily-Overseas) · Port Vila: WhatsApp +678 5631500</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Cosmo Consultancy Vanuatu</h4><span class="pill">DSP</span></div><div class="rep">Johnny Lam</div><div class="ct">22218 / 7742168, Port Vila</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>PRG Global Documents Services LLC</h4><span class="pill">DSP</span></div><div class="rep">Mr. Jimmy NG</div><div class="ct">+678 22395</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Future Citizen Bureau Ltd</h4><span class="pill">DSP</span></div><div class="rep">Irene Jeanita Willie</div><div class="ct">1st Floor, Dockside House 1, Port Vila · +678 7316980 · ijwillie@gwtrust.info</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>AJC / EC Holdings</h4><span class="pill">DSP</span></div><div class="rep">Ms. Marie-Eve Chabot</div><div class="ct">1276 Lini Highway, Port Vila · +678 7189173 · +678 24404 · <a href="http://ajc-vanuatu.com/" target="_blank" rel="noopener">ajc-vanuatu.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Niuvan Agent</h4><span class="pill">DSP</span></div><div class="rep">Niuvan Agent</div><div class="ct">Rue De Gaulle Street, Independence Park, Port Vila · +678 34853 · +678 7727279 · <a href="https://niuvan.vu" target="_blank" rel="noopener">niuvan.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>KwG International Limited</h4><span class="pill">DSP</span></div><div class="rep">Jean Thierry Athy</div><div class="ct">Port Vila: +678 759 8998 · Hong Kong · China · Vietnam · UAE/Russia · <a href="https://www.HwG-im.com" target="_blank" rel="noopener">HwG-im.com</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Golden Vanuatu</h4><span class="pill">DSP</span></div><div class="rep">Robin Luo</div><div class="ct">No.2, Port Vila · 7599257 / 7788777 · WhatsApp RobinLuo</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>MalutaiTNM Solution</h4><span class="pill">DSP</span></div><div class="rep">Rose Vano</div><div class="ct">Pango village, Port Vila · 5367942 / 7777333</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>VIP Premium</h4><span class="pill">DSP</span></div><div class="rep">—</div><div class="ct">George Pompidou, Bougainville Street, Port Vila, P.O. Box 424 · Tel/WhatsApp +678 7757400</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Tropical Gateway Agency Limited</h4><span class="pill">DSP</span></div><div class="rep">TGAL</div><div class="ct">Port Vila: Kumul Highway · +678 5214333 · Hong Kong: Silvercord Tower 1, Tsim Sha Tsui (Jack Chen, WhatsApp +852 9819 2236)</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Vanuatu Kaitian Group International Company Limited</h4><span class="pill">DSP</span></div><div class="rep">—</div><div class="ct">Elluk Plateau Lot 133, Port Vila · offices in Malaysia, Cambodia, Thailand, Singapore, Dubai · pingangl.com</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>A+ South Pacific Citizenship LTD</h4><span class="pill">DSP</span></div><div class="rep">Jack Vanua</div><div class="ct">№2 Lagoon, Starfish, Port Vila · +678 710-00-05 · offices for MENA &amp; Moscow · <a href="https://mypassport.vu" target="_blank" rel="noopener">mypassport.vu</a> (EN/RU/CN/AR)</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>PAS Limited</h4><span class="pill">DSP</span></div><div class="rep">—</div><div class="ct">Errakor lagoon, Port Vila, P.O. Box 87 · +678 5660000</div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>BREJ Pacific General Distribution Limited</h4><span class="pill">DSP</span></div><div class="rep">Rodney Philemon</div><div class="ct">WeChat/WhatsApp +678 7338464 · <a href="https://brej.vu" target="_blank" rel="noopener">brej.vu</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Canada Professional Talent R Us Limited – Vanuatu</h4><span class="pill">DSP</span></div><div class="rep">Richard Kaltongga (CEO Suhaib Mustafa)</div><div class="ct">Sumalapa, Malapoa, Port Vila · +1 416 720 8348 · intl. office London, ON, Canada · <a href="https://www.CPTRU.ca" target="_blank" rel="noopener">CPTRU.ca</a></div></div>
+      <div class="agent" data-cat="dsp"><div class="an"><h4>Core Citizenship Limited</h4><span class="pill">DSP</span></div><div class="rep">Mark Hurley</div><div class="ct">WhatsApp/Telegram +678 7588010 · <a href="https://www.corecitizenship.com" target="_blank" rel="noopener">corecitizenship.com</a></div></div>
+      <!-- CIIP agents (with investment / fund) -->
+      <div class="agent" data-cat="ciip"><div class="an"><h4>Pacific Stars Consultant Vanuatu Limited</h4><span class="pill">CIIP</span></div><div class="rep">CSDFL Fund</div><div class="ct">Port Vila: Kumul Highway · +678 7115000 / +678 7746868 · Dubai offices · orience.com</div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>VIMB Services Ltd</h4><span class="pill">CIIP</span></div><div class="rep">CNO Future Fund</div><div class="ct">Vanuatu +678 5553333 · offices Russia, USA, Hong Kong · <a href="http://www.cno.vu" target="_blank" rel="noopener">cno.vu</a></div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>Stanford Knight &amp; Partners</h4><span class="pill">CIIP</span></div><div class="rep">VCI Fund</div><div class="ct">Vanuatu +678 756 6666 · HK · NZ · USA · UK · <a href="http://www.vanuatucoffeefund.com" target="_blank" rel="noopener">vanuatucoffeefund.com</a></div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>Golden Vila Investment</h4><span class="pill">CIIP</span></div><div class="rep">Timber Investment</div><div class="ct">Hong Kong: The L. Plaza, Queen's Road Central · WhatsApp +852 6073 3642 · <a href="https://www.vanuatugo.com" target="_blank" rel="noopener">vanuatugo.com</a></div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>Fpf Company Limited</h4><span class="pill">CIIP</span></div><div class="rep">Fpf Company Limited — Leah Andrew</div><div class="ct">+678 7102394 / +678 35841</div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>PRG Global Documents Services LLC</h4><span class="pill">CIIP</span></div><div class="rep">Mr. Jimmy NG</div><div class="ct">+678 22395</div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>Future Citizen Bureau Ltd</h4><span class="pill">CIIP</span></div><div class="rep">Irene Jeanita Willie</div><div class="ct">1st Floor, Dockside House 1, Port Vila · +678 7316980 · ijwillie@gwtrust.info</div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>Asia Pacific Consulting</h4><span class="pill">CIIP</span></div><div class="rep">Colline Jacques Natonga</div><div class="ct">Hong Kong WhatsApp +852 6639 2655 · Port Vila WhatsApp +678 5631500</div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>Prime Blue Limited</h4><span class="pill">CIIP</span></div><div class="rep">Steven Li</div><div class="ct">Port Vila +678 7752579 · offices China, Dubai, Australia · <a href="https://www.primeblue.biz" target="_blank" rel="noopener">primeblue.biz</a></div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>Vanuatu Noni</h4><span class="pill">CIIP</span></div><div class="rep">—</div><div class="ct">Elluk Plateau Lot 133, Port Vila · offices Malaysia, Cambodia, Thailand, Singapore, Dubai · pingangl.com</div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>NEU Immigration Consultancy Services</h4><span class="pill">CIIP</span></div><div class="rep">Ratu James Cokataki</div><div class="ct">+678 7799007 / +678 5699007</div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>KwG International Limited</h4><span class="pill">CIIP</span></div><div class="rep">DTEC Fund</div><div class="ct">Vanuatu +678 759 8998 · Hong Kong · China · Vietnam · <a href="https://www.HwG-im.com" target="_blank" rel="noopener">HwG-im.com</a></div></div>
+      <div class="agent" data-cat="ciip"><div class="an"><h4>Smart Citizenship Vanuatu</h4><span class="pill">CIIP</span></div><div class="rep">Melten Manuake</div><div class="ct">Seaside Paama, Port Vila · +678 27365 · +678 7365140 · <a href="https://smartcitizenshipvanuatu.com/" target="_blank" rel="noopener">smartcitizenshipvanuatu.com</a></div></div>
+      <!-- VCP agents -->
+      <div class="agent" data-cat="vcp"><div class="an"><h4>PRG Limited</h4><span class="pill">VCP</span></div><div class="rep">NG King Cheung</div><div class="ct">Contact via the Citizenship Office · +678 33365</div></div>
+      <div class="agent" data-cat="vcp"><div class="an"><h4>Vanuatu Glory</h4><span class="pill">VCP</span></div><div class="rep">—</div><div class="ct">Contact via the Citizenship Office · +678 33365</div></div>
+    </div>
+
+    <p style="margin-top:22px;font-size:.86rem;color:var(--muted)">This directory mirrors the official register published by the Citizenship Office and Commission. To confirm an agent's standing, call +678 33365 or email info@vancitizenship.gov.vu. Full multi-office contact details for each agent are held on record by the Office.</p>
+  </div>
+</section>
+
+<!-- Blacklist -->
+<section class="bg-sand anchor" id="blacklist">
+  <div class="container narrow">
+    <div class="sec-head reveal"><span class="eyebrow" style="color:#b07f12">Cancelled agents</span><h2>Blacklisted — not recognised</h2><p>The following individuals and companies are <strong>not</strong> recognised as designated agents for Vanuatu citizenship. Do not engage them.</p></div>
+    <div class="table-wrap reveal" style="margin-top:24px">
+      <table class="data">
+        <thead><tr><th>No.</th><th>Individual name</th><th>Company name</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Rizwan Farooq</td><td>Vanuatu Sky Ltd</td></tr>
+          <tr><td>2</td><td>McKenzie Tariobed</td><td>VIRE Iverson</td></tr>
+          <tr><td>3</td><td>Wilford Patunvanu</td><td>HwG Vanuatu</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="reveal" style="margin-top:16px;font-size:.9rem;color:var(--muted)">If you have been approached by any cancelled agent, or anyone impersonating the Office, contact us on +678 33365.</p>
+  </div>
+</section>
+
+<!-- Fraud + become an agent -->
+<section class="bg-paper">
+  <div class="container">
+    <div class="cardgrid cols-2">
+      <div class="card reveal">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <h3>Fraud awareness</h3>
+        <p>Official Vanuatu Government citizenship sites always end in <strong>.gov.vu</strong>. The Office never collects payments through unofficial channels. Deal only with licensed agents on the list above, verify identities, and report anything suspicious.</p>
+      </div>
+      <div class="card reveal">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg></span>
+        <h3>Become an authorised agent</h3>
+        <p>Agents are licensed by the Citizenship Commission and must adhere to government-prescribed pricing and due-diligence requirements. To enquire about licensing, contact the Secretary General's office.</p>
+        <p style="margin-top:14px"><a class="btn btn-outline btn-sm" href="contact.html">Contact the Office</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand"><div class="brand"><img class="seal" src="https://commons.wikimedia.org/wiki/Special:FilePath/Coat_of_arms_of_Vanuatu.svg" onerror="this.onerror=null;this.src='assets/coat-of-arms.svg'" alt="Coat of Arms of the Republic of Vanuatu" /><span class="brand-txt"><b>Vanuatu Citizenship</b><span>Office &amp; Commission</span></span></div><p>The Constitutional body responsible for citizenship in the Republic of Vanuatu, under the Citizenship Act [Cap 112].</p></div>
+      <div class="foot-col"><h5>Programmes</h5><a href="programmes.html#ciip">Capital Investment (CIIP)</a><a href="programmes.html#dsp">Development Support (DSP)</a><a href="programmes.html#reo">Real Estate Option (REO)</a><a href="programmes.html#honorary">Honorary / Contribution</a></div>
+      <div class="foot-col"><h5>Apply</h5><a href="how-to-apply.html">How to apply</a><a href="how-to-apply.html#eligibility">Eligibility</a><a href="how-to-apply.html#fees">Fees &amp; charges</a><a href="agents.html">Authorised agents</a><a href="due-diligence.html">Due diligence</a></div>
+      <div class="foot-col foot-contact"><h5>Contact</h5><p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Presidential Palace compound, Port Vila · PMB 9004</p><p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4zM4 7l8 6 8-6"/></svg> info@vancitizenship.gov.vu</p><p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.4-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg> +678 26716 · +678 33365</p></div>
+    </div>
+    <div class="foot-fraud"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg><span><strong style="color:#fff">Beware of fraud.</strong> Official Vanuatu Government citizenship sites always end in <strong style="color:#fff">.gov.vu</strong>. We never collect payments through unofficial channels or unlicensed promoters.</span></div>
+    <div class="foot-bottom"><span>© <span id="year">2026</span> Government of the Republic of Vanuatu. All rights reserved.</span><div class="foot-social"><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2 0-3 1-3 3v2H9v3h2v6h3v-6h2.5l.5-3H14V9.5c0-.3.2-.5.5-.5Z"/></svg></a><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.5 8A1.5 1.5 0 1 0 5 6.5 1.5 1.5 0 0 0 6.5 8ZM5 9.5h3V19H5ZM10 9.5h2.8v1.3h.05a3 3 0 0 1 2.7-1.5c2.9 0 3.45 1.9 3.45 4.4V19h-3v-4.2c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2V19h-3Z"/></svg></a></div></div>
+  </div>
+</footer>
+<script src="assets/script.js"></script>
+</body>
+</html>
+
